@@ -1,7 +1,6 @@
-package factoryJava;
-// package 2.9;
+package FactoryDesign_D1;
 
-class Java {
+public class main {
     public static void main(String[] args) {
         shapeFactory sf = new shapeFactory();
         shape s = sf.getShape("square");

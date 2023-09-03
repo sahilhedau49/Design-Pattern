@@ -1,4 +1,4 @@
-package factoryJava;
+package FactoryDesign_D1;
 
 public class shapeFactory {
     shape getShape(String s) {
@@ -10,7 +10,6 @@ public class shapeFactory {
             shape obj = new circle();
             return obj;
         }
-
         return null;
     }
 }
