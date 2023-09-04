@@ -5,5 +5,8 @@ public class main {
         shapeFactory sf = new shapeFactory();
         shape s = sf.getShape("square");
         s.draw();
+
+        shape c = sf.getShape("circle");
+        c.draw();
     }
 }
