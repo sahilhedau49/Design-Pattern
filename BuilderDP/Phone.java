@@ -4,18 +4,13 @@ public class Phone {
     String os;
     int ram, ss;
 
-    Phone setOS(String s){
+    void setOS(String s){
         this.os =s;
-        return this;
-
     }
-    Phone setRAM(int n){
+    void setRAM(int n){
         this.ram = n;
-        return this;
-
     }
-    Phone setSS(int n){
+    void setSS(int n){
         this.ss = n;
-        return this;
     }
 }
