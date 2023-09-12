@@ -8,6 +8,4 @@ public class main {
 
         System.out.println("\nPhone\nOS: "+p1.os+"\nRAM: "+p1.ram+"\nScreen Size: "+p1.ss);
     }
-
-
 }
