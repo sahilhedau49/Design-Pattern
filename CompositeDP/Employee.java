@@ -1,4 +1,4 @@
-package temp;
+package CompositeDP;
 
 public interface Employee {
     void displayEmployee();
